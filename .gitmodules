@@ -1,0 +1,6 @@
+[submodule "docs/portfolio/themes/hugo-profile"]
+	path = docs/portfolio/themes/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile.git
+[submodule "docs/portfolio/themes/ananke"]
+	path = docs/portfolio/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
