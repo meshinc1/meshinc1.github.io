@@ -5,10 +5,10 @@ showcase:
   subtitle: "Computer Science Grad"
   description: "I recently graduated with my Bachelor's degree in Computer Science from the MSU College of Engineering. Currently, I am seeking opportunities to apply my knowledge and skills to a full-time role in software development."
   image:
-    x: "images/showcase/showcasepfp.jpg"
-    _2x: "images/showcase/showcasepfp@2x.jpg"
+    x: "images/showcase/showcasepfp.JPG"
+    _2x: "images/showcase/showcasepfp@2x.JPG"
   imageMobile:
-    x: "images/showcase/showcasepfp.jpg"
+    x: "images/showcase/showcasepfp.JPG"
 
   button:
     icon: "icon-mail-fill"
