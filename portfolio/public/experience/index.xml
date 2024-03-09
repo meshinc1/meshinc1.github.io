@@ -2,25 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experiences on </title>
-    <link>http://localhost:1313/experience/</link>
+    <link>https://meshinc1.github.io/experience/</link>
     <description>Recent content in Experiences on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Oct 2022 00:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Student Technical Assistant - Facility for Rare Isotope Beams</title>
-      <link>http://localhost:1313/experience/frib/</link>
-      <pubDate>Sat, 01 Oct 2022 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/experience/frib/</guid>
-      <description>Student Technical Assistant Collaborated with engineers to diagnose and resolve integration issues between CAD and PDM software by replicating reported problems and testing potential solutions. Devised automation scripts using Windows Forms applications (VB.NET) to streamline the expansion process of the in-house fastener library, resulting in the efficient generation of 1000s of fastener parts. </description>
-    </item>
-    <item>
-      <title>SDE Intern - Amazon</title>
-      <link>http://localhost:1313/experience/amazon/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/experience/amazon/</guid>
-      <description>First Software Engineering Position Developed a feature for the Alexa mobile app by modifying UI elements and existing APIs to improve the customer experience. Coordinated with team members and other developers during implementation and leveraged the collective knowledge to revise project-related changes during code reviews. Wrote 15+ unit tests using a mock framework and conducted further functionality verification using integration tests and internal APIs. Created documentation on the high-level operation of the feature, and a guide on testing-environment setup necessary for any future related work.</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://meshinc1.github.io/experience/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
