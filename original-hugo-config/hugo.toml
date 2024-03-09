@@ -1,0 +1,4 @@
+baseURL = 'https://meshinc1.github.io/'
+languageCode = 'en-us'
+title = 'Faran Meshinchi Portfolio'
+theme = 'adritian'

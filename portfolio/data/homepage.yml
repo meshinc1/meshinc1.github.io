@@ -1,0 +1,291 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I'm Faran."
+  subtitle: "Computer Science Grad"
+  description: "I recently graduated with my Bachelor's degree in Computer Science from the MSU College of Engineering. Currently, I am seeking opportunities to apply my knowledge and skills to a full-time role in software development."
+  image:
+    x: "images/showcase/showcasepfp.jpg"
+    _2x: "images/showcase/showcasepfp@2x.jpg"
+  imageMobile:
+    x: "images/showcase/showcasepfp.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/faran-meshinchi/"
+
+    - icon: "github"
+      URL: "https://github.com/meshinc1"
+
+    # - icon: "twitter"
+    #   URL: "https://twitter.com/zetxek"
+
+    # - icon: "dribbble"
+    #   URL: "#"
+
+    # - icon: "behance"
+    #   URL: "#"
+
+    # - icon: "youtube"
+    #   URL: "#"
+
+    # - icon: "instagram"
+    #   URL: "https://www.instagram.com/zetxek/"
+
+    # - icon: "facebook"
+    #   URL: "https://www.facebook.com/zetxek/"
+
+    # - icon: "codepen"
+    #   URL: "#"
+
+    # - icon: "yelp"
+    #   URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    My journey began with high school Computer Science courses, where I learned the 
+    fundamentals of object-oriented programming with Java and Python. Subsequently, 
+    I decided to pursue a degree at Michigan State University. 
+    </p>
+    <p class="lead">
+    During my years at MSU, I had the privilege of working with brilliant students 
+    and engineers on several projects, both in and outside the classroom. In my 
+    sophomore year, I participated in the 2021 SAE AutoDrive Challenge, contributing 
+    to the development of HD map parsing and path planning functionality for our 
+    autonomous vehicle. In the Summer of 2022, as a Software Engineer Intern at Amazon, 
+    I developed functionality for the Alexa mobile app, enhancing the user experience 
+    of its collaborative shopping list feature. For more details regarding my work 
+    experience, please refer to the section below.
+    </p>
+    <p class="lead">
+    Since my graduation in May 2023, I have been co-developing a multiplayer, 
+    action-style video game called Grapple Tanks. My partner and I released an early 
+    access version of the game on the Steam distribution platform in January 2024 and 
+    continue to expand its features and content.
+    </p>
+    <p class="lead">
+    In my free time, I enjoy playing video games, working out, and reading.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/faran-meshinchi/"
+  image:
+    x: "images/who-am-i/user-picture.jpg"
+    _2x: "images/who-am-i/user-picture@2x.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Michigan State University"
+      year: "2019 - 2023"
+      degree: "Bachelor of Science (BSc), Computer Science"
+
+    - university: "Saline High School"
+      year: "2015 - 2019"
+      degree: "High School Diploma"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "[Experience summary here...............................................]"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "LinkedIn"
+    URL: "https://www.linkedin.com/in/faran-meshinchi/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download Resume"
+    URL: "/files/faran_meshinchi_resume.pdf"
+
+  # items:
+  #   - title: "Sr. Front-End Developer"
+  #     company: "Radity"
+  #     duration: "Feb 2011 - Sep 2019"
+
+  #   - title: "Sr. Front-End Developer"
+  #     company: "Textic"
+  #     duration: "Apr 2010 - Jan 2011"
+
+  #   - title: "Jr. Front-End Developer"
+  #     company: "Cyberse"
+  #     duration: "Jun 2009 - Mar 2010"
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: true
+
+  # clients:
+  #   - logo:
+  #       x: "images/clients/asgardia.png"
+  #       _2x: "images/clients/asgardia@2x.png"
+  #     alt: "Asgardia"
+
+  #   - logo:
+  #       x: "images/clients/earth-2.png"
+  #       _2x: "images/clients/earth-2@2x.png"
+  #     alt: "Earth 2.0"
+
+  #   - logo:
+  #       x: "images/clients/goldline.png"
+  #       _2x: "images/clients/goldline@2x.png"
+  #     alt: "Goldline"
+
+  #   - logo:
+  #       x: "images/clients/kanba.png"
+  #       _2x: "images/clients/kanba@2x.png"
+  #     alt: "Kanba"
+
+  #   - logo:
+  #       x: "images/clients/zoo-tv.png"
+  #       _2x: "images/clients/zoo-tv@2x.png"
+  #     alt: "Zoo"
+
+  #   - logo:
+  #       x: "images/clients/ztos.png"
+  #       _2x: "images/clients/ztos@2x.png"
+  #     alt: "Ztos"
+
+  works:
+    - title: "Grapple Tanks Game"
+      description: "Developing and publishing a 2D, multiplayer, action game playable with 2-4 players."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read More"
+        URL: "projects/grapple-tanks/"
+      image:
+        x: "images/projects/grapple-tanks-capsule.jpg"
+        _2x: "images/projects/grapple-tanks-capsule@2x.jpg"
+      is_even: false
+
+    - title: "Collaborative Audio/Video Editor"
+      description: "Building a collaborative media editing application from the ground up for TechSmith corporation."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read More"
+        URL: "projects/cave/"
+      image:
+        x: "images/projects/cave-editor.png"
+        _2x: "images/projects/cave-editor@2x.png"
+      is_even: false
+
+    - title: "Arduino Autonomous Car"
+      description: "Designing, building and programming a robot car capable of navigating to any set of local coordinates whilst avoiding obstacles."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read More"
+        URL: "projects/arduino-car/"
+      image:
+        x: "images/projects/arduino-car.jpg"
+        _2x: "images/projects/arduino-car@2x.jpg"
+      is_even: false
+
+    - title: "Shape Match Game"
+      description: "Designing and implementing an interactive 3D puzzle game that relies on a quick reaction time to achieve a high score."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read More"
+        URL: "projects/shape-match/"
+      image:
+        x: "images/projects/shape-match.png"
+        _2x: "images/projects/shape-match@2x.png"
+      is_even: false
+
+    
+
+    
+
+    # - title: "Swiss Fintech Website"
+    #   description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Case Study"
+    #     URL: "#"
+    #   image:
+    #     x: "images/works/swissfintech.jpg"
+    #     _2x: "images/works/swissfintech@2x.jpg"
+    #   is_even: false
+
+    # - title: "Robo Advisor"
+    #   description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Case Study"
+    #     URL: "#"
+    #   image:
+    #     x: "images/works/robo-advisor.jpg"
+    #     _2x: "images/works/robo-advisor@2x.jpg"
+    #   is_even: false
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "images/testimonials/daniel-jordan.jpg"
+        _2x: "images/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "images/testimonials/jonathan-peters.jpg"
+        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "images/testimonials/antonio-willis.jpg"
+        _2x: "images/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "https://api.web3forms.com/submit"
+    method: "POST"
+    access_key: "25723951-5202-43fc-9673-2f52a4396f3e"
+    success_title: "Message submitted successfully! 📨"
+    success_desc: "Thank you! I will get back to you as soon as I can!"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  
+  # phone:
+  #   title: "Phone Number"
+  #   number: "+41 (44) 505 10 99"
+  # email:
+  #   title: "Email"
+  #   email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+  address:
+    title: "Location 🌎"
+    address: "Greater Detroit Area (US)"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."

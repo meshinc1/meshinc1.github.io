@@ -4,3 +4,6 @@
 [submodule "docs/portfolio/themes/ananke"]
 	path = docs/portfolio/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "portfolio/themes/adritian"]
+	path = portfolio/themes/adritian
+	url = https://github.com/zetxek/adritian-free-hugo-theme.git
