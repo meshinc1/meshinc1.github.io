@@ -1,6 +1,6 @@
 +++
 date = 2020-07-01T00:00:00-05:00
-draft = true
+draft = false
 title = 'Shape Match Game'
 company = 'Personal Project'
 duration = 'Jul 2020'

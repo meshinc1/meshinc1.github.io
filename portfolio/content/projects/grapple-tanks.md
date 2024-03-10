@@ -1,6 +1,6 @@
 +++
 date = 2023-05-01T00:00:00-05:00
-draft = true
+draft = false
 title = 'Grapple Tanks Game'
 company = 'Published Video Game'
 duration = 'May 2023 - Present'

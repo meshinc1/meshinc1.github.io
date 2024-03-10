@@ -1,6 +1,6 @@
 +++
 date = 2021-07-01T00:00:00-05:00
-draft = true
+draft = false
 title = 'Arduino Autonomous Car'
 company = 'Personal Project'
 duration = 'Jul 2021 - Aug 2021'

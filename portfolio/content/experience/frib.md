@@ -1,6 +1,6 @@
 +++
 date = 2022-10-01T00:00:00-05:00
-draft = true
+draft = false
 title = "Student Technical Assistant - Facility for Rare Isotope Beams"
 jobTitle = "Student Technical Assistant"
 company = "Facility for Rare Isotope Beams"

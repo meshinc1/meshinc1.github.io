@@ -1,6 +1,6 @@
 +++
 date = 2023-01-01T00:00:00-05:00
-draft = true
+draft = false
 title = 'Collaborative Audio/Video Editor'
 company = 'Senior Design Project'
 duration = 'Jan 2023 - Apr 2023'

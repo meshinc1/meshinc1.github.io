@@ -1,6 +1,6 @@
 +++
 date = 2022-05-01T00:00:00-05:00
-draft = true
+draft = false
 title = "SDE Intern - Amazon"
 jobTitle = "Software Development Engineer Intern"
 company = "Amazon Inc"

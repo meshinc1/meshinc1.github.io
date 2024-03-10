@@ -1,3 +1,7 @@
+head:
+  title: "Faran Meshinchi Portfolio"
+  description: "Personal website for Faran Meshinchi, Computer Science grad from Michigan State University."
+  
 # showcase
 showcase:
   enable: true
@@ -263,7 +267,7 @@ contact:
     action: "https://api.web3forms.com/submit"
     method: "POST"
     access_key: "25723951-5202-43fc-9673-2f52a4396f3e"
-    success_title: "Message submitted successfully! 📨"
+    success_title: "Message submitted successfully!"
     success_desc: "Thank you! I will get back to you as soon as I can!"
     full_name: "Full Name"
     email: "Email Address"
