@@ -12,7 +12,9 @@ duration = 'Jul 2020'
 
 ### Project Objective
 
-To design and implement an interactive 3D puzzle game which relies on a quick reaction time in order to score as many points as possible.
+To design and implement an interactive 3D puzzle game which relies on a quick reaction time in order to score as many points as possible. 
+
+[[Source Code]](https://github.com/meshinc1/unity-projects)
 
 ### Introduction
 

@@ -13,7 +13,7 @@
       <link>https://meshinc1.github.io/projects/grapple-tanks/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 -0500</pubDate>
       <guid>https://meshinc1.github.io/projects/grapple-tanks/</guid>
-      <description>Grapple Tanks: Multiplayer Action Game &amp;#x1f3ae; Introduction Grapple Tanks is a 2D, online multiplayer fighter game playable with up to 4 people. Players manuever a grappling-hook-equipped tank in an endless deathmatch, where the last tank standing earns a point. Players have the option to play with friends, or join public lobbies with random players.&#xA;My partner Dorian Florescu and I began toying with ideas for a game in our college apartment back in December 2021.</description>
+      <description>Grapple Tanks: Multiplayer Action Game &amp;#x1f3ae; Introduction Grapple Tanks is a 2D, online multiplayer fighter game playable with up to 4 people. Players manuever a grappling-hook-equipped tank in an endless deathmatch, where the last tank standing earns a point. Players have the option to play with friends, or to join public lobbies with random players.&#xA;My partner Dorian Florescu and I began toying with ideas for a game in our college apartment back in December 2021.</description>
     </item>
     <item>
       <title>Collaborative Audio/Video Editor</title>
@@ -27,28 +27,28 @@
       <link>https://meshinc1.github.io/experience/frib/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 -0500</pubDate>
       <guid>https://meshinc1.github.io/experience/frib/</guid>
-      <description>Student Technical Assistant Collaborated with engineers to diagnose and resolve integration issues between CAD and PDM software by replicating reported problems and testing potential solutions. Devised automation scripts using Windows Forms applications (VB.NET) to streamline the expansion process of the in-house fastener library, resulting in the efficient generation of 1000s of fastener parts. </description>
+      <description>Student Technical Assistant at FRIB Brief The Facility for Rare Isotope Beams is a scientific user facility for nuclear science at Michigan State University. In my role as a Student Technical Assistant, I worked with the mechanical design team to troubleshoot technical issues and automate design processes where necesssary.&#xA;Responsibilities Collaborated with engineers to diagnose and resolve integration issues between CAD and PDM software by replicating reported problems and testing potential solutions.</description>
     </item>
     <item>
       <title>SDE Intern - Amazon</title>
       <link>https://meshinc1.github.io/experience/amazon/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 -0500</pubDate>
       <guid>https://meshinc1.github.io/experience/amazon/</guid>
-      <description>First Software Engineering Position Developed a feature for the Alexa mobile app by modifying UI elements and existing APIs to improve the customer experience. Coordinated with team members and other developers during implementation and leveraged the collective knowledge to revise project-related changes during code reviews. Wrote 15+ unit tests using a mock framework and conducted further functionality verification using integration tests and internal APIs. Created documentation on the high-level operation of the feature, and a guide on testing-environment setup necessary for any future related work.</description>
+      <description>Software Development Engineer Intern at Amazon Brief My internship at Amazon served as my first professional experience in software development. The role provided me insights into effective communication with my manager, the importance of understanding systems on a macroscopic level, and the intricacies of software design.&#xA;Responsibilities Developed a feature for the Alexa mobile app by modifying UI elements and existing APIs to improve the customer experience. Coordinated with team members and other developers during implementation and leveraged the collective knowledge to revise project-related changes during code reviews.</description>
     </item>
     <item>
       <title>Arduino Autonomous Car</title>
       <link>https://meshinc1.github.io/projects/arduino-car/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 -0500</pubDate>
       <guid>https://meshinc1.github.io/projects/arduino-car/</guid>
-      <description>Arduino Autonomous Car &amp;#x1f697; Project Objective To design, build, and program an RC car-styled robot which can navigate to any set of coordinates whilst avoiding obstacles.&#xA;Introduction The goal with this project was to create an autonomously traversing robot from the ground up. This included:&#xA;Designing a simple chassis &amp;amp; drivetrain Determining the minimal hardware necessary for the desired behavior Writing a program which integrates sensor inputs to control the robot Powered by an Arduino Mega microprocessor, the robot currently relies on two sensors as inputs.</description>
+      <description>Arduino Autonomous Car &amp;#x1f697; Project Objective To design, build, and program an RC car-styled robot which can navigate to any set of coordinates whilst avoiding obstacles.&#xA;[Source Code]&#xA;Introduction The goal with this project was to create an autonomously traversing robot from the ground up. This included:&#xA;Designing a simple chassis &amp;amp; drivetrain Determining the minimal hardware necessary for the desired behavior Writing a program which integrates sensor inputs to control the robot Powered by an Arduino Mega microprocessor, the robot currently relies on two sensors as inputs.</description>
     </item>
     <item>
       <title>Shape Match Game</title>
       <link>https://meshinc1.github.io/projects/shape-match/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 -0500</pubDate>
       <guid>https://meshinc1.github.io/projects/shape-match/</guid>
-      <description>Shape Match Puzzle Game &amp;#x1f579;&amp;#xfe0f; Project Objective To design and implement an interactive 3D puzzle game which relies on a quick reaction time in order to score as many points as possible.&#xA;Introduction The goal when creating this game was to gain a deeper understanding of the Unity game engine and its potential, while having the chance to be a little creative.&#xA;The premise of the game is simple. Every few seconds, a wall of tiles with a cut-out shape approaches a platform with a puzzle piece resting above it.</description>
+      <description>Shape Match Puzzle Game &amp;#x1f579;&amp;#xfe0f; Project Objective To design and implement an interactive 3D puzzle game which relies on a quick reaction time in order to score as many points as possible.&#xA;[Source Code]&#xA;Introduction The goal when creating this game was to gain a deeper understanding of the Unity game engine and its potential, while having the chance to be a little creative.&#xA;The premise of the game is simple.</description>
     </item>
   </channel>
 </rss>

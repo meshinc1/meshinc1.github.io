@@ -8,7 +8,15 @@ location = "East Lansing, MI"
 duration = "Oct 2022 - Apr 2023"
 +++
 
-### Student Technical Assistant
+### Student Technical Assistant at FRIB
+
+***
+
+##### Brief
+
+The [Facility for Rare Isotope Beams](https://frib.msu.edu/) is a scientific user facility for nuclear science at Michigan State University. In my role as a Student Technical Assistant, I worked with the mechanical design team to troubleshoot technical issues and automate design processes where necesssary.
+
+##### Responsibilities
 
 - Collaborated with engineers to diagnose and resolve integration issues between CAD and PDM software by
 replicating reported problems and testing potential solutions.

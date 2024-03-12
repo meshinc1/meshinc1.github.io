@@ -26,30 +26,6 @@ showcase:
     - icon: "github"
       URL: "https://github.com/meshinc1"
 
-    # - icon: "twitter"
-    #   URL: "https://twitter.com/zetxek"
-
-    # - icon: "dribbble"
-    #   URL: "#"
-
-    # - icon: "behance"
-    #   URL: "#"
-
-    # - icon: "youtube"
-    #   URL: "#"
-
-    # - icon: "instagram"
-    #   URL: "https://www.instagram.com/zetxek/"
-
-    # - icon: "facebook"
-    #   URL: "https://www.facebook.com/zetxek/"
-
-    # - icon: "codepen"
-    #   URL: "#"
-
-    # - icon: "yelp"
-    #   URL: "https://www.yelp.com/"
-
 # about
 about:
   enable: true
@@ -103,7 +79,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "[Experience summary here...............................................]"
+  description: "A 12 week, full-time internship at Amazon and 7 months of part-time work at FRIB. Please click to read more about each role."
   button:
     icon: "icon-linkedin-fill"
     btnText: "LinkedIn"
@@ -113,54 +89,10 @@ experience:
     btnText: "Download Resume"
     URL: "/files/faran_meshinchi_resume.pdf"
 
-  # items:
-  #   - title: "Sr. Front-End Developer"
-  #     company: "Radity"
-  #     duration: "Feb 2011 - Sep 2019"
-
-  #   - title: "Sr. Front-End Developer"
-  #     company: "Textic"
-  #     duration: "Apr 2010 - Jan 2011"
-
-  #   - title: "Jr. Front-End Developer"
-  #     company: "Cyberse"
-  #     duration: "Jun 2009 - Mar 2010"
-
 # Client & Work
 client_and_work:
   title: "Projects"
   enable: true
-
-  # clients:
-  #   - logo:
-  #       x: "images/clients/asgardia.png"
-  #       _2x: "images/clients/asgardia@2x.png"
-  #     alt: "Asgardia"
-
-  #   - logo:
-  #       x: "images/clients/earth-2.png"
-  #       _2x: "images/clients/earth-2@2x.png"
-  #     alt: "Earth 2.0"
-
-  #   - logo:
-  #       x: "images/clients/goldline.png"
-  #       _2x: "images/clients/goldline@2x.png"
-  #     alt: "Goldline"
-
-  #   - logo:
-  #       x: "images/clients/kanba.png"
-  #       _2x: "images/clients/kanba@2x.png"
-  #     alt: "Kanba"
-
-  #   - logo:
-  #       x: "images/clients/zoo-tv.png"
-  #       _2x: "images/clients/zoo-tv@2x.png"
-  #     alt: "Zoo"
-
-  #   - logo:
-  #       x: "images/clients/ztos.png"
-  #       _2x: "images/clients/ztos@2x.png"
-  #     alt: "Ztos"
 
   works:
     - title: "Grapple Tanks Game"
@@ -207,32 +139,6 @@ client_and_work:
         _2x: "images/projects/shape-match@2x.png"
       is_even: false
 
-    
-
-    
-
-    # - title: "Swiss Fintech Website"
-    #   description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-    #   button:
-    #     icon: "icon-arrow-right"
-    #     btnText: "Case Study"
-    #     URL: "#"
-    #   image:
-    #     x: "images/works/swissfintech.jpg"
-    #     _2x: "images/works/swissfintech@2x.jpg"
-    #   is_even: false
-
-    # - title: "Robo Advisor"
-    #   description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-    #   button:
-    #     icon: "icon-arrow-right"
-    #     btnText: "Case Study"
-    #     URL: "#"
-    #   image:
-    #     x: "images/works/robo-advisor.jpg"
-    #     _2x: "images/works/robo-advisor@2x.jpg"
-    #   is_even: false
-
 # testimonial
 testimonial:
   enable: false
@@ -275,10 +181,10 @@ contact:
   
   # phone:
   #   title: "Phone Number"
-  #   number: "+41 (44) 505 10 99"
+  #   number: "..."
   # email:
   #   title: "Email"
-  #   email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+  #   email: '<a href="mailto:...">...</a>'
   address:
     title: "Location 🌎"
     address: "Greater Detroit Area (US)"

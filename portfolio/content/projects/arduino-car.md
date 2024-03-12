@@ -14,6 +14,8 @@ duration = 'Jul 2021 - Aug 2021'
 
 To design, build, and program an RC car-styled robot which can navigate to any set of coordinates whilst avoiding obstacles.
 
+[[Source Code]](https://github.com/meshinc1/arduino-autonomous-car)
+
 ### Introduction
 
 The goal with this project was to create an autonomously traversing robot from the ground up. This included:

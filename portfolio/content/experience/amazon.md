@@ -8,7 +8,15 @@ location = "Seattle, WA"
 duration = "May 2022 - Aug 2022"
 +++
 
-### First Software Engineering Position
+### Software Development Engineer Intern at Amazon
+
+***
+
+##### Brief
+
+My internship at Amazon served as my first professional experience in software development. The role provided me insights into effective communication with my manager, the importance of understanding systems on a macroscopic level, and the intricacies of software design.
+
+##### Responsibilities
 
 - Developed a feature for the Alexa mobile app by modifying UI elements and existing APIs to improve the
 customer experience.
