@@ -37,6 +37,13 @@
       <description>Software Development Engineer Intern at Amazon Brief My internship at Amazon served as my first professional experience in software development. The role provided me insights into effective communication with my manager, the importance of understanding systems on a macroscopic level, and the intricacies of software design.&#xA;Responsibilities Developed a feature for the Alexa mobile app by modifying UI elements and existing APIs to improve the customer experience. Coordinated with team members and other developers during implementation and leveraged the collective knowledge to revise project-related changes during code reviews.</description>
     </item>
     <item>
+      <title>Computer Networks</title>
+      <link>https://meshinc1.github.io/projects/computer-networks/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 -0500</pubDate>
+      <guid>https://meshinc1.github.io/projects/computer-networks/</guid>
+      <description>Computer Networks Course Projects Brief This repository contains all projects undertaken during my Spring 2022 Computer Networks course. As part of the curriculum, students were tasked with three programming projects, offering practical applications of networking principles. These projects facilitated hands-on experience in socket programming and involved in-depth exploration of protocols including TCP/IP and BitTorrent.&#xA;[Source Code]&#xA;Project 1: Intro to Socket Programming and Mininet Description The aim of Project 1 was to become comfortable with socket programming and learn to write applications that use sockets to send information across a network.</description>
+    </item>
+    <item>
       <title>Arduino Autonomous Car</title>
       <link>https://meshinc1.github.io/projects/arduino-car/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 -0500</pubDate>

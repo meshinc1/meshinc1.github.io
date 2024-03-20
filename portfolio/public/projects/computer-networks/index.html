@@ -131,7 +131,7 @@
 
 <section id="breadcrumb-bar" class="breadcrumb-bar container">
         <ul class="breadcrumbs">
-            <li class="breadcrum-item"><span><a href="/">Home</a></span></li><li class="breadcrum-item"><span><a href="/projects">Projects</a></span></li><li class="breadcrum-item current">Arduino Autonomous Car</li></ul>
+            <li class="breadcrum-item"><span><a href="/">Home</a></span></li><li class="breadcrum-item"><span><a href="/projects">Projects</a></span></li><li class="breadcrum-item current">Computer Networks</li></ul>
 </section>
 
 
@@ -175,7 +175,7 @@
             </div>
             
 
-            <div class="experience " >
+            <div class="experience  selected " >
               <a href="https://meshinc1.github.io/projects/computer-networks/">
                 
                 <div class="experience__date">Jan 2022 - Apr 2022</div>
@@ -190,7 +190,7 @@
             </div>
             
 
-            <div class="experience  selected " >
+            <div class="experience " >
               <a href="https://meshinc1.github.io/projects/arduino-car/">
                 
                 <div class="experience__date">Jul 2021 - Aug 2021</div>
@@ -221,53 +221,36 @@
             
           </div>
           <div class="col-12 col-md-7 mt-7 mt-sm-0">
-            <h1 id="arduino-autonomous-car-car">Arduino Autonomous Car &#x1f697;</h1>
+            <h1 id="computer-networks-course-projects">Computer Networks Course Projects</h1>
 <hr>
-<h3 id="project-objective">Project Objective</h3>
-<p>To design, build, and program an RC car-styled robot which can navigate to any set of coordinates whilst avoiding obstacles.</p>
-<p><a href="https://github.com/meshinc1/arduino-autonomous-car">[Source Code]</a></p>
-<h3 id="introduction">Introduction</h3>
-<p>The goal with this project was to create an autonomously traversing robot from the ground up. This included:</p>
-<ul>
-<li>Designing a simple chassis &amp; drivetrain</li>
-<li>Determining the minimal hardware necessary for the desired behavior</li>
-<li>Writing a program which integrates sensor inputs to control the robot</li>
-</ul>
-<p>Powered by an Arduino Mega microprocessor, the robot currently relies on two sensors as inputs.</p>
-<p>The first is a Time-of-Flight (ToF) sensor, which is capable of accurately measuring the distance to the nearest obstacle
-within sight (up to ~1.2 meters away). Mounted to a 9g servo motor, the ToF sensor oscillates roughly 120 degrees, detecting
-any obstacles that may be in the robots path.</p>
-<p>The second is an Inertial Measurement Unit (IMU), which is used for taking measurements of the robot&rsquo;s linear acceleration
-and angular velocity in the X, Y and Z axis.</p>
-<p>For movement, the robot uses a 12v DC motor for driving forward and reversing, as well as a larger servo motor for steering
-the front wheels.</p>
-<p><img src="https://user-images.githubusercontent.com/63004334/131267756-cafef62c-75af-483a-8575-36398ed931fd.JPG" alt="IMG_1105"></p>
-<h3 id="milestone-1">Milestone 1</h3>
-<p><a href="https://user-images.githubusercontent.com/63004334/131267734-36d6d62d-99a6-4d6e-97c9-5c637e625004.mp4">Demo Video</a></p>
-<p>The robot is able to maintain its heading traveling in a straight line—stopping and waiting upon encountering an obstacle.
-Movement is resumed when the obstacle is removed.</p>
-<h3 id="milestone-2">Milestone 2</h3>
-<p><a href="https://user-images.githubusercontent.com/63004334/131267668-aa9b7302-38d9-43cc-9d87-d7bb65c9efd6.mp4">Demo Video</a></p>
-<p>The robot continuously traverses a room by:</p>
-<ol>
-<li>Traveling straight until an obstacle is encountered</li>
-<li>Reversing a preconfigured distance</li>
-<li>Conducting a left turn (and returning to step 1)</li>
-</ol>
-<h3 id="technologies">Technologies</h3>
-<ul>
-<li><a href="https://store.arduino.cc/products/arduino-mega-2560-rev3">Arduino Mega 2560 Rev3</a></li>
-<li><a href="https://www.arduino.cc/en/software">Arduino 1.8.15</a></li>
-<li><a href="https://processing.org/download">Processing 4.0b1 (Java)</a></li>
-</ul>
-<h3 id="sources">Sources</h3>
-<p>The following are websites from which I drew inspiration or learned how to use various Arduino libraries:</p>
-<ul>
-<li><a href="https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor">Using Ultrasonic Sensor</a></li>
-<li><a href="https://robojax.com/learn/arduino/?vid=robojax-MPU9250">Using MPU-9250 with Arduino</a></li>
-<li><a href="https://www.makerguides.com/character-lcd-arduino-tutorial/">Using LiquidCrystal Library</a></li>
-<li><a href="https://learn.sparkfun.com/tutorials/connecting-arduino-to-processing/all">Interfacing Arduino with Processing</a></li>
-</ul>
+<h3 id="brief">Brief</h3>
+<p>This repository contains all projects undertaken during my Spring 2022 Computer Networks course. As part of the curriculum, students were tasked with three programming projects, offering practical applications of networking principles. These projects facilitated hands-on experience in socket programming and involved in-depth exploration of protocols including TCP/IP and BitTorrent.</p>
+<p><a href="https://github.com/meshinc1/computer-networks/tree/main">[Source Code]</a></p>
+<h3 id="project-1-intro-to-socket-programming-and-mininet">Project 1: Intro to Socket Programming and Mininet</h3>
+<h5 id="description">Description</h5>
+<p>The aim of Project 1 was to become comfortable with socket programming and learn to write applications that use sockets to send information across a network. The task involved developing a tool capable of sending and receiving TCP packets between two hosts, functioning as a client and server, respectively.</p>
+<p>In client mode, the tool transmits TCP packets to the server within a specified timeframe, tracking the data sent to calculate the connection&rsquo;s bandwidth. Conversely, in server mode, the tool receives TCP packets and monitors the incoming data to compute the connection&rsquo;s bandwith based on the duration between receiving the first and last byte of data.</p>
+<p>The configuration of the virtual network topology was achieved using <a href="https://mininet.org/">Mininet</a>, a network emulator used to develop software-defined networks. The provided topology, defined in the <code>/'python scripts'</code> directory, establishes ten hosts and six network switches interconnected with links of varying bandwidth and latency.</p>
+<p><img src="https://github.com/meshinc1/computer-networks/assets/63004334/501343d2-2462-41ff-999c-c56e8c4b10dd" alt="mininet-topology">
+The defined Mininet topology follows the above diagram.</p>
+<h5 id="result">Result</h5>
+<p>The <code>/measurements</code> directory contains the results of the latency and throughput measurements for each link in the network. To ensure consistency, latency tests were conducted with 30 packets, and throughput tests were performed over a duration of 30 seconds. As anticipated, the measured latency of each link positively correlates with the defined delay period, with <code>round-trip-time</code> approximately twice the defined <code>delay</code>. Similarly, measured throughput demonstrates a positive correlation with defined bandwidth, with higher bandwidth resulting in increased transmission rates and greater total data transfer.</p>
+<h3 id="project-2-reliable-transport-built-on-udp">Project 2: Reliable Transport Built On UDP</h3>
+<h5 id="description-1">Description</h5>
+<p>Project 2 was an opportunity to gain a thorough understanding of the TCP and UDP transport protocols, delving into their respective use cases and functionalities. The goal was to leverage UDP sockets to develop a reliable transport protocol (&ldquo;rUDP&rdquo;) operating at the Application layer. Although distinct from TCP, rUDP emulates TCP&rsquo;s reliability by ensuring dependable delivery of UDP datagrams.</p>
+<p>The rUDP protocol consists of two components: <code>rSender</code> and <code>rReceiver</code>.</p>
+<p>The role of <code>rSender</code> is to read a specified file from the system and transmit it to the designated <code>rReceiver</code> address. Data from the input file is read in chunks, adhering to the maximum frame size for Ethernet (1500 bytes, including protocol headers). Each chunk is appended with a checksum, computed using a 32-bit CRC header, enabling detection of packet corruption. <code>rSender</code> uses a sliding window system to achieve reliable data transfer. A packet buffer stores unacknowledged packets, and if the time since the last acknowledgment surpasses the 500ms retransmission time, all packets within the window are retransmitted.</p>
+<p>The connected <code>rReceiver</code> mirrors much of the functionality of <code>rSender</code>. After establishing a connection, <code>rReceiver</code> creates a new binary output file and begins the process of writing received data into the file. For each data packet, if the checksum is valid and the sequence number falls within the current window, the packet is stored in a buffer. The packet buffer is continuously scanned; consecutive packets with the expected sequence number are written to the output file, while out-of-order packets trigger an acknowledgment to the <code>rSender</code> containing the sequence number for the next expected packet.</p>
+<h5 id="result-1">Result</h5>
+<p>The resulting program ensures dependable file transmission between hosts using UDP sockets. While UDP itself is not a reliable transport protocol, rUDP provides resilience against packet loss, packet corruption, duplication of packets, and re-ordered/delayed acknowledgment arrivals.</p>
+<h3 id="project-3-bittorrent-lite">Project 3: BitTorrent Lite</h3>
+<h5 id="description-2">Description</h5>
+<p>Having gained some familiarity with socket programming, Project 3 pushed us to use knowledge from the previous projects to write a more sophisticated program. The objective was to implement a simplified version of BitTorrent (&ldquo;BitTorrent Lite&rdquo;), a peer-to-peer file-sharing protocol.</p>
+<p>BitTorrent Lite consists of two components: the <code>tracker</code> server and the <code>peer</code>(s).</p>
+<p>The tracker server acts as the overseer of the peer-to-peer file-sharing network. Knowing the identities of all peers in the network and the content of the file being shared, the tracker server provides torrent files to peers seeking to download a file. The torrent file contains the address of all network peers along with CRC32 hashes corresponding to each chunk of the desired file (indexed by chunk ID). Since TCP handles the retransmission of corrupted packets, the hash values in the torrent file are solely intended to mitigate the threat of malware injection by malicious peers. The tracker server generates the torrent file prior to file sharing initiation and can concurrently manage multiple torrent file requests from peers.</p>
+<p>Peers are processes that wish to download a file from the peer-to-peer network. A peer begins by requesting the torrent file from the tracker server at the specified address. Upon reception, the peer parses the torrent file to identify network peers and determine the expected hash for each chunk of the desired file. The peer simultaneously <em>requests chunks</em> from other peers while responding to <em>requests for chunks</em> from peers in the network. After querying all network peers to ascertain their available chunks, the peer begins requesting chunks using a rarest-first approach. Upon receipt, each chunk&rsquo;s hash is validated against the torrent file; invalid chunks are discarded. Once all chunks listed in the torrent file have been received, they are written to an output file on the peer&rsquo;s host.</p>
+<h5 id="result-2">Result</h5>
+<p>The resultant program offers a method of file transmission that distributes the load of download requests, which are typically centralized on a few servers, across a much greater quantity of hosts. This approach generally enables content providers to reduce bandwidth usage while providing faster download speeds for users.</p>
 
           </div>
         </div>

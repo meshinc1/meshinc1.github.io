@@ -96,7 +96,7 @@ client_and_work:
 
   works:
     - title: "Grapple Tanks Game"
-      description: "Developing and publishing a 2D, multiplayer, action game playable with 2-4 players."
+      description: "Developing and publishing a 2D, multiplayer, action game playable with 2-4 players. (C# | Unity2D | Steamworks)"
       button:
         icon: "icon-arrow-right"
         btnText: "Read More"
@@ -107,7 +107,7 @@ client_and_work:
       is_even: false
 
     - title: "Collaborative Audio/Video Editor"
-      description: "Building a collaborative media editing application from the ground up for TechSmith corporation."
+      description: "Building a collaborative media editing application from the ground up for TechSmith corporation. (JavaScript | React | Node.js | Azure)"
       button:
         icon: "icon-arrow-right"
         btnText: "Read More"
@@ -117,8 +117,19 @@ client_and_work:
         _2x: "images/projects/cave-editor@2x.png"
       is_even: false
 
+    - title: "Computer Networks"
+      description: "Leveraging network sockets to write protocols including a reliable UDP and BitTorrent. (C++ | TCP/IP)"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read More"
+        URL: "projects/computer-networks/"
+      image:
+        x: "images/projects/mininet-topology.png"
+        _2x: "images/projects/mininet-topology.png"
+      is_even: false
+
     - title: "Arduino Autonomous Car"
-      description: "Designing, building and programming a robot car capable of navigating to any set of local coordinates whilst avoiding obstacles."
+      description: "Designing, building and programming a robot car capable of navigating to any set of local coordinates whilst avoiding obstacles. (Arduino IDE | Processing)"
       button:
         icon: "icon-arrow-right"
         btnText: "Read More"
@@ -129,7 +140,7 @@ client_and_work:
       is_even: false
 
     - title: "Shape Match Game"
-      description: "Designing and implementing an interactive 3D puzzle game that relies on a quick reaction time to achieve a high score."
+      description: "Designing and implementing an interactive 3D puzzle game that relies on a quick reaction time to achieve a high score. (C# | Unity2D)"
       button:
         icon: "icon-arrow-right"
         btnText: "Read More"
